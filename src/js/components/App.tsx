@@ -1,10 +1,12 @@
-import { useState } from 'react'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
 import CookiePopup from "./CookiePopup";
+import viteLogo from "/vite.svg";
+
+import "../../../styles/cookiebanner.default.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
@@ -26,9 +28,9 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
 
-        <CookiePopup/>
+      <CookiePopup />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
